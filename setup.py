@@ -2,7 +2,7 @@ from distutils.core import setup
 setup(
   name = 'wordcloud_lite',         
   packages = ['wordcloud_lite'],   
-  version = '1.0',      
+  version = '1.1',      
   license='MIT',        
   description = 'Generate Word Cloud with ease.',   
   author = 'Sonu Kumar',                   
