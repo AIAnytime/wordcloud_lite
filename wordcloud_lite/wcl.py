@@ -41,7 +41,7 @@ class WordCloudLite:
                                 random_state=random_state
                                 ).generate(bag_of_words)
 
-        fig = plt.figure(1)
+        fig = plt.figure(figsize = (16,12))
         plt.imshow(generate_wc)
         plt.axis('off')
         plt.show()
