@@ -28,8 +28,7 @@ wordcloud_lite uses a number of open source packages to work properly:
 - [matplotlib](https://pypi.org/project/matplotlib/) - Data Visualization package
 
 
-And of course wordcloud_lite itself is open source with a public repository https://github.com/sonucr7/wordcloud_lite
- on GitHub.
+
 
 ## Uses
 
