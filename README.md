@@ -10,6 +10,8 @@ Wordcloud_lite is a Python package to generate Word Cloud from the text data. Wo
 - It generates a fix size of the image.
 - You can pass additional parameters to customize the wordcloud.
 
+On Pypi: https://pypi.org/project/wordcloud-lite/1.2/
+
 ### Installation
 ```sh
 pip install wordcloud-lite
