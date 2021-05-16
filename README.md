@@ -14,7 +14,7 @@ On Pypi: https://pypi.org/project/wordcloud-lite/1.2/
 
 ### Installation
 ```sh
-pip install wordcloud-lite
+pip install wordcloud-lite==1.2
 ```
 
 
