@@ -7,23 +7,23 @@ with open(path.join(this_directory, 'README.md'), encoding='utf-8') as f:
     long_description = f.read()
 
 setup(
-  name = 'Similarity_Score_Module',    
+  name = 'wordcloud_lite',    
   long_description = long_description,
   long_description_content_type = 'text/markdown',    
-  packages = ['Similarity_Score_Module'],   
-  version = '1.0',      
+  packages = ['wordcloud_lite'],   
+  version = '1.2',      
   license='MIT',        
-  description = 'Check Similarity Score',   
+  description = 'Generate Word Cloud with ease.',   
   author = 'Sonu Kumar',                   
   author_email = 'sonu1000raw@gmail.com',      
-  url = 'https://github.com/sonucr7/Similarity_Score_Module',   
-  download_url = 'https://github.com/sonucr7/Similarity_Score_Module/archive/v_01.tar.gz',   
-  keywords = ['Similarity_Score', 'Pandas', 'neattext', 'sklearn'],   
+  url = 'https://github.com/sonucr7/wordcloud_lite',   
+  download_url = 'https://github.com/sonucr7/wordcloud_lite/archive/v_01.tar.gz',   
+  keywords = ['WordCloud', 'NLP', 'nltk'],   
   install_requires=[            #dependencies
-          'pandas',
-          'neattext',
-          'numpy',
-          'scikit_learn',
+          'wordcloud',
+          'matplotlib',
+          'nltk',
+          'pillow'
       ],
   classifiers=[
     'Development Status :: 3 - Alpha',      
